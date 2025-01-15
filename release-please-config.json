@@ -7,7 +7,7 @@
     "packages": {
       "template1": {
         "package-name": "template1",
-        "changelog-path": "skeleton/template-CHANGELOG.md"
+        "changelog-path": "skeleton/template-CHANGELOG.md",
         "extra-files": [
             {
               "type": "yaml",
