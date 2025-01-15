@@ -3,5 +3,7 @@ kind: Template
 metadata:
   name: sample-template1
   title: Repo for app code and pipeline for deployment
-  templateVersion: 1.0.0
-  description: This Template is used to scaffold App repo and pipeline for deployment. Note- If you are using it for testing, please get the repo deleted
+  templateVersion: 1.0.2
+  description: >-
+    This Template is used to scaffold App repo and pipeline for deployment.
+    Note- If you are using it for testing, please get the repo deleted
