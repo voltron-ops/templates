@@ -9,11 +9,17 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/create-github-app-token@v1
+        id: app-token
+        with:
+          app-id: 1126605
+          private-key: ${{ secrets.PRIVATE_KEY }}
+          
       - name: Release Please
         uses: googleapis/release-please-action@v4
         id: release
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ steps.app-token.outputs.token }}
           target-branch: ${{ github.ref_name }}
           config-file: release-please-config.json
           manifest-file: .release-please-manifest.json  # Enable manifest-based versioning
