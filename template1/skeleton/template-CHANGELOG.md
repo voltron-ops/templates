@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/voltron-ops/templates/compare/template1@v1.0.3...template1@v1.0.4) (2025-01-29)
+
+
+### Bug Fixes
+
+* test workflow ([3c2aadb](https://github.com/voltron-ops/templates/commit/3c2aadb5394bc06609149259f11467ae894875e7))
+
 ## [1.0.3](https://github.com/voltron-ops/templates/compare/template1-v1.0.2...template1@v1.0.3) (2025-01-29)
 
 
