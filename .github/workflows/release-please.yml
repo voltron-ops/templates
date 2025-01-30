@@ -13,7 +13,7 @@ jobs:
         id: app-token
         with:
           app-id: 1126605
-          private-key: ${{ var.PRIVATE_KEY_VAR }}
+          private-key: ${{ vars.PRIVATE_KEY_VAR }}
           
       - name: Release Please
         uses: googleapis/release-please-action@v4
